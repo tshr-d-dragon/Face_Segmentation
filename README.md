@@ -2,7 +2,7 @@
 
 In this project, the goal is to train a model for segmenting various parts of face.
 
-**Data:** [link](https://www.kaggle.com/datasets/ashish2001/multiclass-face-segmentation)
+**Dataset:** [link](https://www.kaggle.com/datasets/ashish2001/multiclass-face-segmentation)
 
 **Number of Images:** Train(19535) and Validation (2653)
 
@@ -48,3 +48,17 @@ value of 256 x 256.
 | Learning Rate | loss | F1 | IOU |
 |:---:|:---:|:---:|:---:|
 | ![LR](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/LR_Deeplab.png) | ![loss](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/loss_Deeplab.png) | ![F1](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/F1Score_Deeplab.png) | ![IOU](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/IOU_Deeplab.png) |
+
+**Predictions:**
+
+- PSPNet
+
+| Image | Ground Truth | Prediction |
+|---|---|---|
+| ![1]https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/PSPNet_images/test_10.png) | ![2](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/PSPNet_images/test_10_mask.png.png) | ![3](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/PSPNet_images/test_10_pred.png) |
+
+- Deeplab
+
+| Image | Ground Truth | Prediction |
+|---|---|---|
+| ![1]https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_10.png) | ![2](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_10_mask.png.png) | ![3](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_10_pred.png) |
