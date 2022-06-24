@@ -1,6 +1,6 @@
 # Face_Segmentation
 
-### Analysis of the problem statement and Dataset:
+## Analysis of the problem statement and Dataset:
 In this project, the goal is to train a model for segmenting various parts of face.
 
 **Dataset:** [link](https://www.kaggle.com/datasets/ashish2001/multiclass-face-segmentation)
@@ -29,14 +29,14 @@ value of 256 x 256.
 **Pixel wise distribution of classes per image:**
 ![Distribution of Dataset](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Distribution%20of%20Dataset.png)
 
-### Model Training:
+## Model Training:
 - I used PSPNet with ResNet50 as a backbone and Deeplabv3+ model with EfficientNetB0 as a backbone
 - I used 4000 training images and 800 validation images only for training because of shortage of infrastructure
 - I trained the model for 39 epochs with initial learning rate of 0.1 with SGD (Stochastic Gradient Descent) optimizer and Reduce Learning Rate on Plateau with patience of 4 and factor of 0.5)
 - I also used Early Stopping callback with patience of 10 epochs to prevent overfitting
 
 
-### Graphs (Loss, DiceScore (F1-Score), IOU_Score:
+## Graphs (Loss, DiceScore (F1-Score), IOU_Score:
 
 - PSPNet
 
@@ -50,7 +50,7 @@ value of 256 x 256.
 |:---:|:---:|:---:|:---:|
 | ![LR](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/LR_Deeplab.png) | ![loss](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/loss_Deeplab.png) | ![F1](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/F1Score_Deeplab.png) | ![IOU](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/IOU_Deeplab.png) |
 
-### Predictions:
+## Predictions:
 
 - PSPNet
 
@@ -68,15 +68,18 @@ value of 256 x 256.
 | ![1](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_50.png) | ![2](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_50_mask.png) | ![3](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_50_pred.png) |
 | ![1](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_100.png) | ![2](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_100_mask.png) | ![3](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_100_pred.png) |
 
-### Performance Comparison:
+## Performance Comparison:
 
 - On Complete (Train: 4000 and Val: 800 images) Dataset:
+
 ![TrainVal](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Performance_TrainVal.png)
 
+
 - On Test Dataset (7766 images):
+
 ![Test](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Performance_Test.png)
 
-### Future Steps:
+## Future Steps:
 -   Try training model with different loss functions
 -   Try training Deeplabv3+ and PSPNet models with different backbones
 -   Try with different model such as Unet, LinkNet, FPN, ICNet with different backbones
