@@ -83,7 +83,7 @@ value of 256 x 256.
 ## Future Steps:
 -   Try training model with different loss functions
 -   Try training Deeplabv3+ and PSPNet models with different backbones
--   Try with different model such as Unet, LinkNet, FPN, ICNet with different backbones
+-   Try with different model such as Unet, LinkNet, ICNet with different backbones
 -   Try training model further for more epochs
 -   Try gathering more data for training by new annotations and augmentations
 -   Try training the model further with smaller learning rate with Adam or SGD (with momentum)
