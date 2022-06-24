@@ -55,10 +55,10 @@ value of 256 x 256.
 
 | Image | Ground Truth | Prediction |
 |---|---|---|
-| ![1]https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/PSPNet_images/test_10.png) | ![2](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/PSPNet_images/test_10_mask.png.png) | ![3](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/PSPNet_images/test_10_pred.png) |
+| ![1](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/PSPNet_images/test_10.png) | ![2](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/PSPNet_images/test_10_mask.png) | ![3](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/PSPNet_images/test_10_pred.png) |
 
 - Deeplab
 
 | Image | Ground Truth | Prediction |
 |---|---|---|
-| ![1]https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_10.png) | ![2](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_10_mask.png.png) | ![3](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_10_pred.png) |
+| ![1](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_10.png) | ![2](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_10_mask.png) | ![3](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/test_10_pred.png) |
