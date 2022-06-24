@@ -37,7 +37,7 @@ value of 256 x 256.
 - I also used Early Stopping callback with patience of 10 epochs to prevent overfitting
 
 
-## Graphs (Loss, DiceScore (F1-Score), IOU_Score:
+## Graphs (Loss, DiceScore (F1-Score), IOU_Score):
 
 - PSPNet
 
@@ -51,7 +51,7 @@ value of 256 x 256.
 |:---:|:---:|:---:|:---:|
 | ![LR](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/LR_Deeplab.png) | ![loss](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/loss_Deeplab.png) | ![F1](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/F1Score_Deeplab.png) | ![IOU](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Deeplab_images/IOU_Deeplab.png) |
 
-## Predictions:
+## Predictions on 3 images from Test Dataset:
 
 - PSPNet
 
