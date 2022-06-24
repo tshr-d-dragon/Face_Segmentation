@@ -27,6 +27,7 @@ Images are in very big in size with varying orientation (Portrait as well as Lan
 value of 256 x 256.
 
 **Pixel wise distribution of classes per image:**
+
 ![Distribution of Dataset](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Distribution%20of%20Dataset.png)
 
 ## Model Training:
