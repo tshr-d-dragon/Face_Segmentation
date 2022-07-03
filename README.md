@@ -81,6 +81,7 @@ value of 256 x 256.
 ![Test](https://github.com/tshr-d-dragon/Face_Segmentation/blob/main/Performance_Test.png)
 
 ## Future Steps:
+-   Try training model with complete dataset
 -   Try training model with different loss functions
 -   Try training Deeplabv3+ and PSPNet models with different backbones
 -   Try with different model such as Unet, LinkNet, ICNet with different backbones
