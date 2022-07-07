@@ -37,7 +37,7 @@ def Pyramid_Pooling_Module(features, f=64, p1=2, p2=3, p3=6):
     return Concatenate()([features, red, orange, blue, green])
 
 
-def PSPNet(inputs, classes=100):
+def PSPNet(inputs, classes=10):
 
     inputs = Input(inputs)
 
@@ -69,8 +69,8 @@ def PSPNet(inputs, classes=100):
   
 def main():
 
-    model = PSPNet(inputs=(256,256,3), classes=100)
-    # model.summary()
+    model = PSPNet(inputs=(256,256,3), classes=10)
+    model.summary()
 
 
 if __name__== '__main__':
