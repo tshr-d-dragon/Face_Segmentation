@@ -42,7 +42,7 @@ def ASPP(image_features):
   return y
 
 
-def DeepLabV3Plus(inputs, classes=1):
+def DeepLabV3Plus(inputs, classes=10):
 
     inputs = Input(inputs)
 
@@ -85,7 +85,7 @@ def DeepLabV3Plus(inputs, classes=1):
   
 def main():
 
-    model = DeepLabV3Plus(inputs=(1024,1024,3), classes=4)
+    model = DeepLabV3Plus(inputs=(1024,1024,3), classes=10)
     model.summary()
 
 
